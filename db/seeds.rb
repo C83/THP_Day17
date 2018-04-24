@@ -23,7 +23,6 @@ end
 	article.description = Faker::Lorem.sentence(1, true, 3)
 	article.user_id = rand(100)
 	binding.pry
-	article.categories = Categorie.all[rand(20)]
 	article.save	
 end
 
