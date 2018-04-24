@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Jour 17 de THP. Utilisation de active record. 
 
-Things you may want to cover:
+Plusieurs commandes utiles : 
+* rails db:drop pour supprimer la BD actuelle
+* rails db:create pour créer une DB
+* rails db:migrate pour effectuer les changements conformément au fichiers de description des migrations. 
+* rails db:seed pour peupler la BD
 
-* Ruby version
 
-* System dependencies
+Deux gems ont été ajoutées : 
+* Faker pour générer des données structurées aléatoirement 
+* Pry pour tester
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Fait par Cyril M.
